@@ -6,7 +6,6 @@ import { Container } from './container';
 
 interface Props {
     className?: string;
-    df: string;
 }
 
 export const Header: React.FC<Props> = ({ className }) => {
